@@ -1,0 +1,9 @@
+h1{ /* h1 설정 */
+    color: white;   /* 글자 색: 하얀 색 */
+    background-color: black;    /* 바탕색: 검정 */
+}
+
+h3 {    
+    color: rgb(193, 255, 174);       
+    background-color: white;
+}
