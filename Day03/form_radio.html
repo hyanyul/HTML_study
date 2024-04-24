@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Form_radio</title>
+        <style>
+            fieldset{
+                width: 230px;
+            }
+        </style>
+    </head>
+    <body>
+        <form></form>
+            <fieldset>
+                <legend><b>&nbsp;[가입]&nbsp;</b></legend>
+                <label for="username">이름</label>
+                <input type="text" name="username" id="username"><br><br>
+                성별 &nbsp;<input type="radio" name="gender" id="woman" value="w">여자&nbsp;
+                <input type="radio" name="gender" id="man" value="m">남자<br><br>
+                <input type="submit" name="가입">
+                <button>취소</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
+
+<!--
+    아이디 중복 불가(오류는 안뜨나 하나만 적용됨)
+    클래스 중복 가능
+-->

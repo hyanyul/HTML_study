@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <style>
+            
+        </style>
+        <title>Form_basic</title>
+        <style>
+            span{
+                display: inline-block;
+                width: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 사용자 입력 양식 -->
+            <span>ID</span><input type="text" name="id" placeholder="아이디를 입력하세요"><br><br>
+            <span>PW</span><input type="password" name="password" placeholder="비밀번호를 입력하세요"><br><br>
+            <input type="file" name="file" value="file"><br><br>
+            <input type="checkbox" name="cb" value="checkbox"> 체크박스<br><br>
+            <input type="radio" name="radio" value="radio"> 라디오<br><br>
+            <input type="hidden" name="hidden" value="hidden"><br><br>  <!-- 화면에서 안보임 -->
+            <input type="button" value="button"><br><br>
+            <input type="reset" value="reset"><br><br>
+            <input type="submit" value="제출"><br><br>
+    </body>
+</html>
+
+<!--
+    <input>: 닫는 태그 없음, 입력 시 사용, type 속성 필수
+    type: 입력할 내용의 타입
+        * type="password"일 경우 입력 시 점으로 보임
+    name: 입력창 이름 / 일종의 변수명
+    submit 버튼 만들면 입력된 정보가 서버 쪽으로 전송됨
+    placeholder: 입력창 내에 정보 입력
+    value: 초기값 줌
+-->
